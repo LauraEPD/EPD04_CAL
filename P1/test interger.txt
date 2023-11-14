@@ -1,0 +1,23 @@
+public class TestIgualdad {
+    public static void main(String[] args) {
+        Integer numero1 = 5;
+        Integer numero2 = 5;
+
+        if (numero1.equals(numero2)) {
+            System.out.println("Los números son iguales.");
+        } else {
+            System.out.println("Los números son diferentes.");
+        }
+    }
+}
+
+public class TestSuma {
+    public static void main(String[] args) {
+        Integer numero1 = 10;
+        Integer numero2 = 20;
+
+        Integer suma = numero1 + numero2;
+
+        System.out.println("La suma es: " + suma);
+    }
+}
